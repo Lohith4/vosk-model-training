@@ -1,0 +1,9 @@
+version: "3.4"
+services:
+  vosk-model-training:
+    container_name: vosk-model-training
+    build: .
+    tty: true
+    
+      
+
